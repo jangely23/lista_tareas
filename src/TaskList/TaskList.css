@@ -1,0 +1,14 @@
+.taskList {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    text-align: center;
+}
+
+.taskList ul {
+    width: 80%;
+    padding: 3px;
+    margin: 1px;
+}

@@ -1,0 +1,31 @@
+.taskButton {
+    color: black;
+    background: goldenrod;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    text-align: center;
+}
+
+.taskButton-modal {
+    align-self: end;
+    justify-self: end;
+    padding: 10px;
+    width: 13%;
+    border-radius: 50px;
+    font-size: large;
+}
+
+.taskButton-normal {
+    align-self: center;
+    justify-self: center;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.taskButton:hover, .taskButton-modal:hover {
+    background: black;
+    color: goldenrod;
+}

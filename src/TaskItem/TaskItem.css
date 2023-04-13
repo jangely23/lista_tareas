@@ -1,0 +1,40 @@
+.taskItem {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 15px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 1px 1px goldenrod;
+    border-radius: 10px;
+}
+
+.taskItem span {
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+.taskItem .active {
+    color: rgb(22, 132, 0);
+}
+
+.taskItem p.active {
+    color: black;
+    text-decoration: line-through;
+}
+
+.taskItem .false {
+    color: goldenrod;
+}
+
+.taskItem p.false {
+    color: black;
+    text-decoration: none;
+}
